@@ -1,0 +1,1 @@
+Making a time tracking app that will track my time spent per project using lockify api
