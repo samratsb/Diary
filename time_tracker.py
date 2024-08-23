@@ -45,5 +45,17 @@ def logs():
     except requests.exceptions.HTTPError as e:
         typer.echo(f"HTTP error occurred: {e}")
 
+
+@app.command()
+def logs_storage():
+    """cache the logs per day in a folder."""
+
+@app.command()
+def time_spent():
+    """Time spent per project."""
+
+
+
+
 if __name__ == "__main__":
     app()
